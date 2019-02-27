@@ -1,0 +1,7 @@
+echo "# arun.cisco" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/arunlala0101/arun.cisco.git
+git push -u origin masters
+git push origin master --force
